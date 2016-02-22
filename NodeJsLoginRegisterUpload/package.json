@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-login",
+  "version": "0.0.1",
+  "description": "NodejsLogin",
+  "main": "server.js",
+  "author": "Mario",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.4",
+    "express-session": "^1.13.0",
+    "body-parser": "^1.15.0",
+    "passport-local-mongoose": "^4.0.0",
+    "passport": "^0.3.2",
+    "twig": "^0.8.8",
+    "cookie-parser": "^1.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boky8zg/nodejs-login.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boky8zg/nodejs-login/issues"
+  },
+  "homepage": "https://github.com/boky8zg/nodejs-login#readme"
+}

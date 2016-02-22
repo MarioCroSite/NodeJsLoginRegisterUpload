@@ -1,0 +1,19 @@
+{% extends '_layout.twig' %}
+
+{% block content %}
+	<h1>Register Page</h1>
+	<p class="lead">Say something worthwhile here.</p>
+
+	<form role="form" action="/register" method="post" style="max-width: 300px">
+		<div class="form-group">
+			<input type="text" class="form-control" name="username" placeholder="Enter Username">
+		</div>
+
+		<div class="form-group">
+			<input type="password" class="form-control" name="password" placeholder="Password">
+		</div>
+
+		<button class="btn btn-default" type="submit">Submit</button>
+		<button class="btn btn-primary" type="reset">Cancel</button>
+	</form>
+{% endblock %}

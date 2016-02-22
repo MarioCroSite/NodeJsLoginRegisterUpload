@@ -1,0 +1,19 @@
+{% extends '_layout.twig' %}
+
+{% block content %}
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Username</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for u in users %}
+			<tr>
+				<td>{{ u.username }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}
